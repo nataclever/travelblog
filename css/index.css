@@ -1,3 +1,23 @@
 header {
-    background-image: url(img/plane-lg.jpg);
+    background-color: rgba(128, 128, 128, 0.11);
+    width: 900px;
+    height: 100px;
+        font-family: Chonburi;
+        font-size: 110px;
+        color: white;
+        text-align: right;
 }
+h1.absolute {
+    position: absolute;
+    font-family: Quicksand;
+    font-size: 32px;
+    width: 900px;
+    bottom: 90px;
+    color: black;
+    text-align: center;
+    }
+    img.background {
+        position: relative;
+        opacity: 0.8;
+    }
+    
