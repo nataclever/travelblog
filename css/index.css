@@ -7,12 +7,13 @@ header {
         color: white;
         text-align: right;
 }
-h1.absolute {
-    position: absolute;
-    font-family: Quicksand;
+h1.relative {
+    position: relative;
+    bottom: 100px;
+    font-family: Chonburi;
     font-size: 32px;
     width: 900px;
-    bottom: 90px;
+    
     color: black;
     text-align: center;
     }
