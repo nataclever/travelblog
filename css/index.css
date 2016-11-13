@@ -3,20 +3,11 @@ header {
     width: 900px;
     height: 105px;
         font-family: Chonburi;
-        font-size: 115px;
+        font-size: 110px;
         color: white;
         text-align: right;
 }
-h1.relative {
-    position: relative;
-    bottom: 100px;
-    font-family: Chonburi;
-    font-size: 32px;
-    width: 900px;
-    
-    color: black;
-    text-align: center;
-    }
+
     img.background {
         position: relative;
         opacity: 0.8;
@@ -30,6 +21,7 @@ h1.relative {
     width: 900px;
     height: 60px;
     font-size: 50px;
+    font-family: Chonburi;
     color: white;
     position: relative;
     margin: 0px 0px 10px 0px;
@@ -40,6 +32,7 @@ h1.relative {
     width: 900px;
     height: 60px;
     font-size: 50px;
+    font-family: Chonburi;
     color: white;
     position: relative;
     margin: 0px 0px 10px 0px;
@@ -51,6 +44,7 @@ h1.relative {
 
         width: 900px;
         height: 500px;
+        font-family: Quicksand;
         
         
     }
