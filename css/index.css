@@ -54,6 +54,7 @@ h5.text-right {
         color: white;
         font-size: 60px;
         text-align: right;
+margin: 0 auto;
         
 }
 .iframe {
