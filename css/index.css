@@ -46,7 +46,16 @@ h1.relative {
     
     }
     footer{background-color: rgba(128, 128, 128, 0.11);
-        font-family: Chonburi;
+
         width: 900px;
-        height: 300px;
+        height: 500px;
+        
+        
     }
+h5.text-right {
+            font-family: Chonburi;
+        color: white;
+        font-size: 60px;
+        text-align: right;
+        
+}
