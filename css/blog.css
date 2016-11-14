@@ -11,17 +11,25 @@ background-color: rgba(128, 128, 128, 0.11);
         text-align: right;
 }
 h1 {
-    text-align: center; 
-}
- .flex-container {
-     text-align: center;
+    text-align: center;
     font-size: 42;
     font-family: Quicksand;
     color: gray;
     
 }
+ .flex-container {
+    text-align: center;
+    width: 1200px;
+    font-size: 42;
+    font-family: Quicksand;
+    color: gray;
+    position: relative;
+    
+}
 p{
     width: 600px;
     text-align: center;
+        font-weight: bold;
+        margin: 0 auto;
     
 }
