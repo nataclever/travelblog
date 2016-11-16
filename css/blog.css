@@ -1,4 +1,4 @@
-body {text-align: center;
+body {
 max-width: 1200px;
 margin: 0 auto;
     
@@ -12,42 +12,49 @@ background-color: rgba(224, 224, 224, 1);
         color: white;
         text-align: right;
 }
+
 h1 {
     text-align: center;
+    font-weight: bold;
     font-size: 42;
     font-family: Quicksand;
     color: gray;
-    
 }
+
  .flex-container {
-     display: flex;
-     flex-direction: column;
-    text-align: center;
+
+    margin: 0 auto;
+ 
     width: 1200px;
-    font-size: 42;
-    font-family: Quicksand;
-    color: gray;
-    position: relative;
     
+       
+    position: relative;
 }
-p{
+
+p{ font-size: 42;
     width: 600px;
     text-align: center;
         font-weight: bold;
         margin: 0 auto;
          position: relative;
          font-family: Quicksand;
-    
+         color: gray;
 }
+
 
 .content{
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content: center;
 }
+
 .foto-cont{
     display:flex;
-    flex-direction:row;
-    justify-content:space-around;
+    flex-direction: row;
+    justify-content:center; 
     margin: 10px;
+}
+article{
+    display: flex;
+    margin: 0 auto;
 }
