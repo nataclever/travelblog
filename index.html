@@ -4,8 +4,10 @@
 <head>
     <title>My page</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <link rel="stylesheet" href="css/fornavigation.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fornavigation.css" type="text/css"/>
+        <link rel="stylesheet" media="(min-width: 451px)" href="css/index-lg.css" type="text/css" />
+    <link rel="stylesheet" media="(max-width: 450px)" href="css/index-sm.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet" type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type='text/css'>
 </head>
@@ -13,25 +15,27 @@
 <body>
     <header>Travel Blog</header>
     <ul>
-        <li><a href=".html">CONTACTS</a></li>
-        <li><a href=".html">ABOUT</a></li>
-        <li><a href=".html">GALLERY</a></li>
-        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="#contacts">CONTACTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="blog.html" target="_blank">BLOG</a></li>
         <li><a href="index.html">HOME</a></li>
     </ul>
-
-    <img class="background" src="img/plane-lg.jpg" alt="plane">
+<div class="background-image">
+<img src="img/plane-lg.jpg" alt="window"width=1200px; height=600px;></img>
+    
+</div>
     <h2 class="header2">LATEST BLOG POSTS</h2>
     <div class="flex-container">
         <aside id="left">
             Italy, country of dreams.
-            <img src="img/milan.jpg" width=400px; height=300px;><a href="blog.html">  Read more</aside>
-   <aside id="right">
+            <img src="img/milan.jpg" width=400px; height=400px;><a href="blog.html">Read more</a></aside></div>
+   <div><aside id="right">
         Three advantages why you should visit France.
-   <img src="img/fr1.jpg" width=400px; height=300px;></img> Read more</aside>
-        </div>
+   <img src="img/fr1.jpg" width=400px; height=400px;><a href="blog.html">Read more</a></aside></div>
+        
         <div>
-            <h3 class="header3">GALLERY</h3>
+            <h3 id="gallery" class="header3">GALLERY</h3>
             <img src="img/morning.jpg" alt="window"width=295px; height=295px;></img>
 <img src="img/city.jpg" alt="window"width=295px; height=295px;></img>
 <img src="img/flying.jpg" alt="window"width=295px; height=295px;></img>
@@ -49,14 +53,15 @@
 <img src="img/rest3.jpg" alt="window"width=295px; height=295px;></img>
 <img src="img/swim.jpg" alt="window"width=295px; height=295px;></img>
         </div>
-        <h4 class="header3">ABOUT</h4>
-<video>
-        <iframe allowfullscreen frameborder="0" height=360px id="video-player" width=607px; 
-src="https://player.vimeo.com/video/185879368">
-</iframe>
-            </video>
+        <h4 id="about" class="header3">ABOUT</h4>
+<div>
+        <iframe src="https://player.vimeo.com/video/185879368" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/185879368">Eurotrip 2016</a>
+</p>
+            
+            </div>
             <footer>
-                <h5 class="text-right">contacts</h5>
+                <h5 id="contacts" class="text-right">contacts</h5>
                 <figure>
                     <a href="https://www.facebook.com/profile.php?id=100001814775533" target="_blank">
                         <img class="more" width=50px; height=50px; src="img/fb.svg" alt="fblogo"></a>

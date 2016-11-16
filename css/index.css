@@ -1,5 +1,11 @@
+body {
+    max-width: 1200px;
+}
+
 header {
-    background-color: rgba(128, 128, 128, 0.11);
+    background-color: rgba(224, 224, 224, 1);
+    
+    
     width: 1200px;
     height: 105px;
         font-family: Chonburi;
@@ -8,17 +14,13 @@ header {
         text-align: right;
 }
 
-    img.background {
-        position: relative;
-        opacity: 0.8;
-        width: 1200px;
-    }
+
         .flex-container {
             display: inline-flex;
         width: 1200px;
     } 
     .header2 {
-    background-color: rgba(128, 128, 128, 0.11);
+    background-color: rgba(224, 224, 224, 1);
     width: 1200px;
     height: 60px;
     font-size: 50px;
@@ -29,7 +31,7 @@ header {
     
     }
         .header3 {
-    background-color: rgba(128, 128, 128, 0.11);
+    background-color: rgba(224, 224, 224, 1);
     width: 1200px;
     height: 60px;
     font-size: 50px;
@@ -37,17 +39,15 @@ header {
     color: white;
     position: relative;
     margin: 0px 0px 10px 0px;
-    text-align: end;
+    text-align: right;
     text-decoration: none;
     
     }
-    footer{background-color: rgba(128, 128, 128, 0.11);
+    footer{background-color: rgba(224, 224, 224, 1);
 
         width: 1200px;
         height: 500px;
         font-family: Quicksand;
-        
-        
     }
 h5.text-right {
             font-family: Chonburi;
