@@ -1,16 +1,16 @@
 body {
-max-width: 1200px;
-margin: 0 auto;
-    
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 header {
-background-color: rgba(224, 224, 224, 1);
+    background-color: rgba(224, 224, 224, 1);
     width: 1200px;
     height: 105px;
-        font-family: Chonburi;
-        font-size: 110px;
-        color: white;
-        text-align: right;
+    font-family: Chonburi;
+    font-size: 110px;
+    color: white;
+    text-align: right;
 }
 
 h1 {
@@ -21,36 +21,32 @@ h1 {
     color: gray;
 }
 
- .flex-container {
+.flex-container {
     margin: 0 auto;
     width: 1200px;
     position: relative;
- }
-
-
-p{ 
-    width: 600px;
-    text-align: center;
-        font-weight: bold;
-        margin: 0 auto;
-         position: relative;
-         color: gray;
 }
 
+p {
+    width: 800px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    color: gray;
+}
 
 .content {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-                 font-size: 24;
-         font-family: Quicksand;
+    font-size: 24;
+    font-family: Quicksand;
 }
-    
 
-
-.foto-cont{
-    display:flex;
+.foto-cont {
+    display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-around;
     margin: 10px;
 }

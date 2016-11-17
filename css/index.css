@@ -35,9 +35,8 @@ p {
          font-size: 22px;
          color: gray;
 }
-aside {
-    width: 400px;
-    
+aside#left {
+    width: 100%;
 }
     
     .header2 {
