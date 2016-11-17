@@ -1,45 +1,47 @@
 body {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
     background-color: rgba(224, 224, 224, 1);
-    
-    
     width: 1200px;
-    height: 118px;
-        font-family: Chonburi;
-        font-size: 110px;
-        color: white;
-        text-align: right;
+    height: 115px;
+    font-family: Chonburi;
+    font-size: 108px;
+    color: white;
+    text-align: right;
 }
 
-
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            text-align: right;
-        width: 1200px;
-        height: 500px;
-        margin: 0 auto;
-    }
-    
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+#left{
+   margin: 0 auto;
+   width: 400px;
+   height: 500px;
+}
+#right{
+    margin: 0 auto;
+}
 p {
-    
-        font-weight: bold;
-        width: 400px;
-        margin: 0 auto;
-         position: relative;
-         font-family: Quicksand;
-         font-size: 22px;
-         color: gray;
+    font-weight: bold;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    font-family: Quicksand;
+    font-size: 22px;
+    color: gray;
+   
 }
-aside#left {
-    width: 100%;
-}
-    
-    .header2 {
+
+.header2 {
     background-color: rgba(224, 224, 224, 1);
     width: 1200px;
     height: 60px;
@@ -48,9 +50,9 @@ aside#left {
     color: white;
     position: relative;
     margin: 0px 0px 10px 0px;
-    
-    }
-        .header3 {
+}
+
+.header3 {
     background-color: rgba(224, 224, 224, 1);
     width: 1200px;
     height: 60px;
@@ -61,22 +63,30 @@ aside#left {
     margin: 0px 0px 10px 0px;
     text-align: right;
     text-decoration: none;
-    
-    }
-    footer{background-color: rgba(224, 224, 224, 1);
-
-        width: 1200px;
-        height: 500px;
-        font-family: Quicksand;
-    }
-h5.text-right {
-            font-family: Chonburi;
-        color: white;
-        font-size: 60px;
-        text-align: right;
-margin: 0 auto;
-        
 }
+
+footer {
+    background-color: rgba(224, 224, 224, 1);
+    width: 1200px;
+    height: 600px;
+    font-family: Quicksand;
+}
+
+.text-right {
+    font-family: Chonburi;
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    margin: 0 auto;
+}
+
 .iframe {
     float: right;
+}
+form-group {
+        display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    
+    
 }
