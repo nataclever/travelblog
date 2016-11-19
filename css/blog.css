@@ -8,6 +8,10 @@ body {
     width: 1200px;
     font-family: Quicksand;
 }
+nav.navbar.navbar-inverce
+{
+    position: fixed;
+}
 header {
     background-color: rgba(224, 224, 224, 1);
     width: 1200px;
