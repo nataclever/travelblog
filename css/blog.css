@@ -2,15 +2,20 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.container {
+    position: fixed;
+    margin: 0 auto;
+    width: 1200px;
+}
 header {
     background-color: rgba(224, 224, 224, 1);
     width: 1200px;
     height: 105px;
     font-family: Chonburi;
-    font-size: 110px;
+    font-size: 105px;
     color: white;
     text-align: right;
+    text-decoration: none;
 }
 
 a {

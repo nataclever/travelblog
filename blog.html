@@ -4,6 +4,12 @@
 <head>
     <title>Blog</title>
     <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/blog.css" type="text/css" />
     <link rel="stylesheet" media="(min-width: 451px)" href="css/index-lg.css" type="text/css" />
     <link rel="stylesheet" media="(max-width: 450px)" href="css/index-sm.css" type="text/css" />
@@ -12,7 +18,28 @@
 </head>
 
 <body>
-    <a id="blog " href="index.html"><header>BLOG</header></a>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="index.html">Travel Blog</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#footer" class="smooth">bottom</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <a id="blog " href="index.html">
+        <header>BLOG</header>
+    </a>
     <div class="flex-container">
 
         <h1 id="italy">Italy, beautiful destination</h1>
@@ -84,8 +111,7 @@
         </div>
 
         <h1>Çeşme & Alaçatı</h1>
-        <div class="foto-cont">
-            <img src="img/cerme5.jpg" width="900" height="300" alt="panorama"></img>
+        <div class="foto-cont"><img src="img/cerme5.jpg" width="900" height="300" alt="panorama"></img>
         </div>
         <div class="content">
             <p>About Çeşme: Çeşme whose historic name is known as Cyssus is the pier of Erythrai (Ildırı) which is one of 12 cities of Ionia. Itdraws attention with historical richness of Çeşme which is the first ancient settlement of the penisula called
@@ -135,10 +161,14 @@
                 with shipwrecksandunderwater riches for diving lovers.</p>
         </div>
     </div>
-    <footer>
+    <footer id="footer">
+        <h2 id="contacts" class="text-right">contacts</h2>
 
     </footer>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <script type="text/javascript" src="js/navbar.js"></script>
 </body>
 
 </html>
