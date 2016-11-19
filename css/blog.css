@@ -1,11 +1,12 @@
 body {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 .container {
     position: fixed;
     margin: 0 auto;
     width: 1200px;
+    font-family: Quicksand;
 }
 header {
     background-color: rgba(224, 224, 224, 1);
