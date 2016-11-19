@@ -3,9 +3,9 @@ body {
     margin: 0 auto;
 }
 .container {
-    position: fixed;
+    position: relative;
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
     font-family: Quicksand;
 }
 nav.navbar.navbar-inverce
@@ -23,9 +23,10 @@ header {
     text-decoration: none;
 }
 
-a {
+a.container {
     text-decoration: none;
     color: white;
+    position: fixed;
     
 }
 

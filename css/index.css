@@ -22,6 +22,12 @@ header {
     height: 500px;
     margin: 0 auto;
 }
+
+ #plane {
+     width:1200px; 
+     height:600px;
+}
+
 #left{
    margin: 0 auto;
    width: 400px;
@@ -50,6 +56,11 @@ p {
     color: white;
     position: relative;
     margin: 0px 0px 10px 0px;
+}
+#pic { 
+    width: 295px; 
+height: 295px; 
+    
 }
 
 .header3 {
@@ -88,4 +99,3 @@ footer {
         display: flex;
     flex-direction: column;
     font-weight: bold;
-}
