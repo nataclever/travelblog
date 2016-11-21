@@ -57,7 +57,7 @@ p {
     position: relative;
     margin: 0px 0px 10px 0px;
 }
-#pic { 
+.picture { 
     width: 295px; 
 height: 295px; 
     
@@ -99,3 +99,7 @@ footer {
         display: flex;
     flex-direction: column;
     font-weight: bold;
+
+input.btn.btn-default {
+width: 100px;    
+}
