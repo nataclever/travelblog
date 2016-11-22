@@ -36,6 +36,7 @@ header {
 #right{
     margin: 0 auto;
 }
+
 p {
     font-weight: bold;
     width: 400px;
@@ -82,6 +83,15 @@ footer {
     height: 600px;
     font-family: Quicksand;
 }
+.logo {
+    width: 50px; 
+    height: 50px;
+}
+div.logo {
+    
+}
+
+
 
 .text-right {
     font-family: Chonburi;
@@ -96,10 +106,14 @@ footer {
 }
 
 .form-group {
-        display: flex;
     flex-direction: column;
     font-weight: bold;
+}
 
-input.btn.btn-default {
+btn.btn-default {
 width: 100px;    
+}
+a {
+    text-decoration: none;
+    color: white;
 }
