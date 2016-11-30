@@ -46,7 +46,6 @@ p {
     font-size: 22px;
     color: gray;
     text-decoration: none;
-   
 }
 
 .header2 {
@@ -79,10 +78,12 @@ height: 295px;
 }
 
 footer {
+    margin: 0 auto;
     background-color: rgba(224, 224, 224, 1);
     width: 1200px;
-    height: 600px;
+    height: 700px;
     font-family: Quicksand;
+   
 }
 .logo {
     width: 50px; 
@@ -109,7 +110,7 @@ footer {
     font-weight: bold;
 }
 
-btn.btn-default {
+.btn-default {
 width: 100px;    
 }
 a {
@@ -117,10 +118,23 @@ a {
     color: white;
 }
 .map {
+    margin: 0 auto;
     width: 900px;
-    height: 450px
+    height: 400px;
 } 
 .video {
+    margin: 0 auto;
     width: 900px; 
     height: 450px;
+}
+#eurotrip
+{
+    margin: 0 auto;
+    font-family: Quicksand;
+    font-size: 22px;
+    color: gray;
+    
+}
+#namevideo {
+    text-align: center;
 }
